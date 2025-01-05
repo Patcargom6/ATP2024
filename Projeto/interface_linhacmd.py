@@ -376,7 +376,7 @@ def Importar_Pub(fnome):
                 registos.get('url') in url_existe
             ): # Os registos válidos no ficheiro externo serão adicionados à bd
                 mensagens_duplicadas.append(f'Publicação duplicada "{registos.get('title')}" não foi importada!')
-                continue
+                
 
             bd.append(registos)
 
